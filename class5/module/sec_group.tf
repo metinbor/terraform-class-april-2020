@@ -1,5 +1,5 @@
 
-resource "aws_security_group" "asg-sec-group" {
+resource "aws_security_group" "asg_sec_group" {
 name = "asg-sec-group"
 description = "Allow TLS inbound traffic"
 ingress {
